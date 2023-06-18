@@ -1,0 +1,38 @@
+*{
+    margin:0;
+}
+
+nav {
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.btn-menu {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background:#363B65;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn-menu:hover {
+    background:#383A89;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,149 @@
+.listaCompras form {
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 60px;
+    margin: 30px auto;
+    margin-bottom: 60px;
+}
+
+.listaCompras input {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #2D3046;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #FFF;
+    margin: 0 5px;
+}
+
+.listaCompras button.add {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #363B65;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 0 10px 10px 0;
+}
+
+.listaCompras button.add:hover {
+    background-color: #363f88;
+}
+
+.listaCompras {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 600px;
+    margin:0 auto;
+}
+
+.listaCompras .item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #363B65;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.listaCompras .item:hover {
+    background-color: #151627;
+}
+
+.listaCompras .nomeItem {
+    padding: 10px 15px;
+}
+
+.listaCompras .quantidadeItem {
+    padding: 10px 15px;
+}
+
+.listaCompras .valorItem {
+    padding: 10px 15px;
+}
+
+.listaCompras .item span {
+    width: 100%;
+    color: #FFF;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-align: start;
+}
+
+.listaCompras .item.completo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1F2E;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.listaCompras .item.completo span {
+    width: 100%;
+    color: #4D506E;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: line-through;
+    text-align: start;
+}
+
+.listaCompras button.del {
+    background: none;
+    border: none;
+    color: #4D506E;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.listaCompras button.del:hover {
+    background-color: #FF004C;
+    color: #FFF;
+}
+
+.listaCompras button.deleteAll {
+    border: 1px solid #FF004C;
+    background: none;
+    padding: 15px;
+    color: #FF004C;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.listaCompras button.deleteAll:hover {
+    background-color: #FF004C;
+    color: #FFF;
+}
+
+.listaCompras .icone-central{
+    width: 100%;
+}
+
+.listaCompras .titulo {
+    display: flex;
+    justify-content: left
+}
+
+.titulo .nomeItem, .titulo .quantidadeItem {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .listaCompras form {
+        width: 100%;
+    }
+
+    .listaCompras {
+        width: 100%;
+    }
+}
