@@ -40,13 +40,19 @@ function ListaCompras() {
     }
 
     function deleta(index) {
-        const listaAux = [...listaProdutos]
-        listaAux.splice(index, 1)
-        setListaProdutos(listaAux)
+        if(confirm("Você tem certeza?")){
+            alert("Produto apagado!")
+            const listaAux = [...listaProdutos]
+            listaAux.splice(index, 1)
+            setListaProdutos(listaAux)
+        }
     }
 
     function deletaTudo() {
-        setListaProdutos([]);
+        if(confirm("Você tem certeza?")){
+            alert("Lista apagada!")
+            setListaProdutos([])
+        }
     }
 
     return (

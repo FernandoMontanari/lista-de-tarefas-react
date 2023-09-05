@@ -33,13 +33,19 @@ function TodoList() {
     }
 
     function deleta(index) {
-        const listaAux = [...lista];
-        listaAux.splice(index,1);
-        setLista(listaAux);
+        if(confirm("Você tem certeza?")){
+            alert("Produto apagado!")
+            const listaAux = [...lista];
+            listaAux.splice(index,1);
+            setLista(listaAux);
+        }
     }
 
     function deletaTudo() {
-        setLista([]);
+        if(confirm("Você tem certeza?")){
+            alert("Lista apagada!")
+            setLista([]);
+        }
     }
 
     //HTML
