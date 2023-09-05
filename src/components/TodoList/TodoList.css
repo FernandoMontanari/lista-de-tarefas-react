@@ -118,6 +118,11 @@
     margin:0 auto
 }
 
+.listaCompras .txt-central{
+    text-align: center;
+    width: 80%;
+}
+
 @media screen and (max-width: 900px) {
     .listaTarefas form {
         width: 100%;
