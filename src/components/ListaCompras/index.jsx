@@ -100,7 +100,10 @@ function ListaCompras() {
                     listaProdutos.length < 1
                     ?
 
-                    <img className="icone-central" src={Icone} />
+                    <div>
+                        <img className="icone-central" src={Icone} />
+                        <p className="txt-central"><br></br>Os itens adicionados são armazenados no Local Storage do dispositivo.<br></br>Ferramenta montada como objetivo de estudo utilizando React + Vite!</p>
+                    </div>
 
                     :
 

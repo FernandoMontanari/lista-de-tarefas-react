@@ -131,6 +131,10 @@
     margin:0 auto
 }
 
+.listaCompras .txt-central{
+    text-align: center;
+}
+
 .listaCompras .titulo {
     display: flex;
     justify-content: left
