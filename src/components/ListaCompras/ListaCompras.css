@@ -135,7 +135,6 @@
     text-align: center;
     display: block;
     margin:0 auto;
-    width: 80%;
 }
 
 .listaCompras .titulo {
@@ -158,5 +157,12 @@
 
     .listaCompras .icone-central{
         width: 60%;
+    }
+
+    .listaCompras .txt-central{
+        text-align: center;
+        display: block;
+        margin:0 auto;
+        width: 80%;
     }
 }

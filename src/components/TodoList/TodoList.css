@@ -122,7 +122,6 @@
     text-align: center;
     display: block;
     margin:0 auto;
-    width: 80%;
 }
 
 @media screen and (max-width: 900px) {
@@ -136,5 +135,12 @@
 
     .icone-central{
         width: 60%;
+    }
+
+    .txt-central{
+        text-align: center;
+        display: block;
+        margin:0 auto;
+        width: 80%;
     }
 }
