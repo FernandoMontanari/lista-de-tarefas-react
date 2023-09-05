@@ -65,7 +65,6 @@ function ListaCompras() {
                         type="number"
                         placeholder="Quantidade"
                         id="input-quantidade-produto"
-                        required
                         value={produtoQuantidade}
                         onChange={(e) => { setProdutoQuantidade(e.target.value) }}
                     />

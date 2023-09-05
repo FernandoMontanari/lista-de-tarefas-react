@@ -126,7 +126,9 @@
 }
 
 .listaCompras .icone-central{
-    width: 100%;
+    width: 50%;
+    display: block;
+    margin:0 auto
 }
 
 .listaCompras .titulo {
@@ -145,5 +147,9 @@
 
     .listaCompras {
         width: 100%;
+    }
+
+    .listaCompras .icone-central{
+        width: 60%;
     }
 }
