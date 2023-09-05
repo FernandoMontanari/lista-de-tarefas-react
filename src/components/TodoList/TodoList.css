@@ -118,8 +118,10 @@
     margin:0 auto
 }
 
-.listaCompras .txt-central{
+.txt-central{
     text-align: center;
+    display: block;
+    margin:0 auto;
     width: 80%;
 }
 
